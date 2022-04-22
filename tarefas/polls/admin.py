@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import dev,situacao
+
+admin.site.register(dev)
+admin.site.register(situacao)
